@@ -1,0 +1,8 @@
+aiogram>=3.0.0
+torch
+transformers
+peft
+datasets
+optimum
+onnxruntime
+python-dotenv

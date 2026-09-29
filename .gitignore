@@ -1,0 +1,60 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Telemetry logs & local logs
+*.log
+feedback_log.jsonl
+
+# Large model weights & checkpoints
+weight_model/
+merged_model/
+lora_output/
+onnx_model*/
+*.safetensors
+*.onnx
+*.onnx_data
+*.bin
+*.pt
+*.pth
+
+# External raw dataset sources
+mlcourse_ai/
+books_extracted/
+*.fb2
+
+# Session recovery & IDE
+SESSION.md
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
